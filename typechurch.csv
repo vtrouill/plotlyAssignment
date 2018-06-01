@@ -1,0 +1,82 @@
+district;religious type;number
+12;Buddhism;1
+13;Buddhism;2
+8;Anglicanism;2
+16;Anglicanism;1
+13;Antoinism;1
+17;Antoinism;1
+19;Antoinism;1
+1;Catholic;7
+2;Catholic;3
+3;Catholic;4
+4;Catholic;6
+5;Catholic;9
+6;Catholic;6
+7;Catholic;9
+8;Catholic;6
+9;Catholic;5
+10;Catholic;5
+11;Catholic;6
+12;Catholic;6
+13;Catholic;9
+14;Catholic;9
+15;Catholic;12
+16;Catholic;9
+17;Catholic;9
+18;Catholic;10
+19;Catholic;10
+20;Catholic;9
+20;Coptic;1
+4;Evangelical Lutheran;1
+5;Evangelical Lutheran;1
+7;Evangelical Lutheran;1
+9;Evangelical Lutheran;2
+11;Evangelical Lutheran;1
+13;Evangelical Lutheran;1
+17;Evangelical Lutheran;2
+18;Evangelical Lutheran;1
+19;Evangelical Lutheran;1
+5;Orthodox;2
+6;Orthodox;1
+7;Orthodox;1
+8;Orthodox;1
+9;Orthodox;1
+11;Orthodox;1
+13;Orthodox;1
+15;Orthodox;5
+16;Orthodox;3
+18;Orthodox;1
+19;Orthodox;1
+1;Reformed;1
+4;Reformed;1
+5;Reformed;2
+7;Reformed;2
+8;Reformed;3
+9;Reformed;2
+10;Reformed;1
+11;Reformed;1
+14;Reformed;1
+15;Reformed;6
+16;Reformed;2
+17;Reformed;2
+20;Reformed;2
+18;Hinduism;1
+5;Islam;1
+10;Islam;3
+11;Islam;7
+14;Islam;2
+15;Islam;1
+18;Islam;4
+19;Islam;1
+20;Islam;4
+3;Judaism;1
+4;Judaism;6
+5;Judaism;1
+9;Judaism;7
+11;Judaism;1
+12;Judaism;1
+15;Judaism;1
+16;Judaism;1
+18;Judaism;3
+19;Judaism;1
+20;Judaism;2

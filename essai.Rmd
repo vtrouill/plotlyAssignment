@@ -1,0 +1,50 @@
+---
+title: "Markdown presentation & plotly"
+author: "vincent trouillet"
+date: "1 juin 2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## number of religious buildings by district in Paris
+
+This is a document based on the List of religious buildings in Paris 
+
+
+## load plotly and datas
+
+```{r charge, echo = TRUE}
+library(plotly)
+data<-read.csv("typechurch.csv",sep=";")
+```
+
+## code 
+
+```{r pressure, echo = TRUE}
+f <- list(
+  family = "Courier New, monospace",
+  size = 18,
+  color = "#7f7f7f"
+)
+xx <- list(
+  title = "Paris District",
+  titlefont = f
+)
+yy <- list(
+  title = "Number of buildings",
+  titlefont = f
+)
+p<-plot_ly(x= data$district, y= data$number, type = "scatter",
+           mode = "markers", color = data$religious.type) %>% 
+  layout(xaxis = xx, yaxis = yy)
+
+```
+## PLOT 
+
+```{r plot}
+p
+```
+
